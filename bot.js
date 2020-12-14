@@ -106,7 +106,7 @@ const ChannelArray = [];
 const TimeoutFunc = ""
 const ClearLog = ""
 const AllPermissions  = ["ADMINISTRATOR", "MANAGE_ROLES", "MANAGE_CHANNELS", "MANAGE_GUILD", "BAN_MEMBERS", "KICK_MEMBERS", "MANAGE_NICKNAMES", "MANAGE_EMOJIS", "MANAGE_WEBHOOKS"];
-function ytKapat(guildID) {
+function permDeny(guildID) {
   let sunucu = client.guilds.cache.get(guildID);
   if (!sunucu) return;
   sunucu.roles.cache.filter(x => x.editable && (x.permissions.has("ADMINISTRATOR") || x.permissions.has("MANAGE_GUILD") || x.permissions.has("MANAGE_ROLES") || x.permissions.has("MANAGE_WEBHOOKS"))).forEach(async a => {
