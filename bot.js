@@ -91,6 +91,7 @@ client.elevation = message => {
 };
 
 const prefix = ayarlar.prefix;
+const set = new Set();
 const guildID = "";
 const cezaliID = "";
 const boosterID = "";
