@@ -92,6 +92,9 @@ client.elevation = message => {
 
 const prefix = ayarlar.prefix;
 /*
+
+Aşağıdakilerden bazıları özel fonksiyonlarım ve bazı objeler oldukları için kaldırdım , örnek alıp yapabilirsiniz. (Zaten eski.)
+
 const set = new Set();
 const guildID = "";
 const cezaliID = "";
