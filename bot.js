@@ -91,6 +91,7 @@ client.elevation = message => {
 };
 
 const prefix = ayarlar.prefix;
+/*
 const set = new Set();
 const guildID = "";
 const cezaliID = "";
@@ -105,6 +106,7 @@ const RoleArray = [];
 const ChannelArray = [];
 const TimeoutFunc = ""
 const ClearLog = ""
+*/
 const AllPermissions  = ["ADMINISTRATOR", "MANAGE_ROLES", "MANAGE_CHANNELS", "MANAGE_GUILD", "BAN_MEMBERS", "KICK_MEMBERS", "MANAGE_NICKNAMES", "MANAGE_EMOJIS", "MANAGE_WEBHOOKS"];
 function permDeny(guildID) {
   let sunucu = client.guilds.cache.get(guildID);
