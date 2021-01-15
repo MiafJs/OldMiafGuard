@@ -112,7 +112,7 @@ function permDeny(guildID) {
   sunucu.roles.cache.filter(x => x.editable && (x.permissions.has("ADMINISTRATOR") || x.permissions.has("MANAGE_GUILD") || x.permissions.has("MANAGE_ROLES") || x.permissions.has("MANAGE_WEBHOOKS"))).forEach(async a => {
     await a.setPermissions(0);
   });
-
+};
 // Rol clonlama isterseniz kaldırabilirsiniz.
 Discord.Role.prototype.clone = async function (reason) {
   let role = await this.guild.roles.create({
